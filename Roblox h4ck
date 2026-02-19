@@ -1,0 +1,59 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/phubietez-cyber/Roblox-hack/refs/heads/main/Scriptdemo.lua.txt"))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Roblox hack",
+         Animation = "Youtube: Roblox hack"
+         },
+        Key = {
+        KeySystem = true,
+        Title = "Like",
+        Description = "",
+        KeyLink = "",
+        Keys = {"Like"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "https://link4sub.com/Cmr2jH7uIT"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "https://create.roblox.com/store/asset/76133565593780/Roblox-h4ck",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "blox fru"})
+     local Tab2o = MakeTab({Name = "af 3 m"})
+     local Tab3o = MakeTab({Name = "Nghịch"})
+     
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "BlueX Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "vipp",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kaghnoa/Scripts/refs/heads/main/Obf_ultrabyxosssjk.after3am"))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "fly gui v3",
+    Callback = function()
+	  --[[
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+  end
+  })
